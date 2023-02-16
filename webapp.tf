@@ -10,7 +10,7 @@ resource "aws_instance" "mywebapp" {
       device_name = "my_data"
       volume_type = "io1"
       volume_size = 3000
-      iops = 120000
+      iops = 1200
     }
 }
 
