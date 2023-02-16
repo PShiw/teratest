@@ -1,0 +1,12 @@
+{
+    "deny": [
+        {
+            "failed": false,
+            "msg": "AWS instance IOPS must cost less than compute usage (aws_instance.web_app IOPS $0.07\\hr, usage $0.77\\hr)."
+        },
+        {
+            "failed": false,
+            "msg": "AWS instances must cost less than $2.00\\hr (aws_instance.web_app costs $1.02\\hr)."
+        }
+    ]
+}
