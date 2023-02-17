@@ -1,7 +1,7 @@
 resource "aws_instance" "testvm" {
     ami = "ami-065deacbcaac64cf2"
-    # instance_type = "t2.micro"
-    instance_type = "m4.large"
+    instance_type = "t2.micro"
+    # instance_type = "m4.large"
     # instance_type = "m4.modium"
 }
 
